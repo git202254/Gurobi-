@@ -1,0 +1,20 @@
+\ Model (null)_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ c12: y10 + y11 + y12 + y13 + y14 + y15 + y16 = 7
+ c13: y20 + y21 + y22 + y23 + y24 + y25 + y26 = 7
+ c14: y30 + y31 + y32 + y33 + y34 + y35 + y36 = 7
+ c15: y40 + y41 + y42 + y43 + y44 + y45 + y46 = 7
+ c17: y60 + y61 + y62 + y63 + y64 + y65 + y66 = 7
+ c19: y80 + y81 + y82 + y83 + y84 + y85 + y86 = 7
+ c111: y100 + y101 + y102 + y103 + y104 + y105 + y106 = 7
+ c41: 19 y10 + 12 y20 + 13 y30 + 15 y40 + 19 y50 + 16 y60 + 11 y70 + 12 y80
+   + 20 y90 + 14 y100 <= 100
+Bounds
+Binaries
+ y10 y11 y12 y13 y14 y15 y16 y20 y21 y22 y23 y24 y25 y26 y30 y31 y32 y33
+ y34 y35 y36 y40 y41 y42 y43 y44 y45 y46 y50 y60 y61 y62 y63 y64 y65 y66
+ y70 y80 y81 y82 y83 y84 y85 y86 y90 y100 y101 y102 y103 y104 y105 y106
+End

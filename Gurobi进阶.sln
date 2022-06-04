@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gurobi进阶", "Gurobi进阶.vcxproj", "{C26C86D0-FCF0-422F-9246-5D63FFA3B445}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C26C86D0-FCF0-422F-9246-5D63FFA3B445}.Debug|x64.ActiveCfg = Debug|x64
+		{C26C86D0-FCF0-422F-9246-5D63FFA3B445}.Debug|x64.Build.0 = Debug|x64
+		{C26C86D0-FCF0-422F-9246-5D63FFA3B445}.Debug|x86.ActiveCfg = Debug|Win32
+		{C26C86D0-FCF0-422F-9246-5D63FFA3B445}.Debug|x86.Build.0 = Debug|Win32
+		{C26C86D0-FCF0-422F-9246-5D63FFA3B445}.Release|x64.ActiveCfg = Release|x64
+		{C26C86D0-FCF0-422F-9246-5D63FFA3B445}.Release|x64.Build.0 = Release|x64
+		{C26C86D0-FCF0-422F-9246-5D63FFA3B445}.Release|x86.ActiveCfg = Release|Win32
+		{C26C86D0-FCF0-422F-9246-5D63FFA3B445}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBB2B2CF-5E0E-4A36-AE2C-80A77B126BD8}
+	EndGlobalSection
+EndGlobal
